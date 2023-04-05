@@ -105,6 +105,7 @@ class _TwoAnimatedListDemoState extends State<TwoAnimatedListDemo> {
       },
       duration: duration,
     );
+    //////////
     _flyingCount++;
 
     WidgetsBinding.instance!.addPostFrameCallback((timeStamp) async {
